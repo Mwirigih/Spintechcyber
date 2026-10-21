@@ -20,7 +20,7 @@ window.SITE_CONFIG = {
       { icon: "type",     title: "Typing & Document Preparation",    text: "Letters, reports and forms typed and formatted neatly, ready to use." },
       { icon: "cv",       title: "CV & Resume Assistance",           text: "Help presenting your experience clearly in a professional Resume." },
       { icon: "apply",    title: "Online Applications",              text: "Support filling in and submitting applications online." },
-      { icon: "gov",      title: "Government e-Services Assistance", text: "Guidance with online government services( SHA , E- Citizen , i-Tax and Many others." },
+      { icon: "gov",      title: "Government e-Services Assistance", text: "Guidance with online government services( SHA , E- Citizen , i-Tax and Many others)." },
       { icon: "computer", title: "Other Services",     text: "Oher services like Car Transfers, Browsing and Passport Photo Available." }
     ]
   },
