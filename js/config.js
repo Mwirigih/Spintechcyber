@@ -18,10 +18,10 @@ window.SITE_CONFIG = {
       { icon: "print",    title: "Printing & Photocopying",          text: "Clear black-and-white and colour prints and copies for school, office and personal use." },
       { icon: "scan",     title: "Scanning & Document Services",     text: "Turn paper into clean digital files you can save, email or upload." },
       { icon: "type",     title: "Typing & Document Preparation",    text: "Letters, reports and forms typed and formatted neatly, ready to use." },
-      { icon: "cv",       title: "CV & Resume Assistance",           text: "Help presenting your experience clearly in a professional Resume." },
+      { icon: "cv",       title: "CV & Resume Assistance",           text: "Help presenting your experience clearly in a professional CV." },
       { icon: "apply",    title: "Online Applications",              text: "Support filling in and submitting applications online." },
-      { icon: "gov",      title: "Government e-Services Assistance", text: "Guidance with online government services( SHA , E- Citizen , i-Tax and Many others)." },
-      { icon: "computer", title: "Other Services",     text: "Oher services like Car Transfers, Browsing and Passport Photo Available." }
+      { icon: "gov",      title: "Government e-Services Assistance", text: "Guidance with online government services and the documents they ask for." },
+      { icon: "computer", title: "Other Services",     text: "Access Other Services like browsing, Internet access." }
     ]
   },
   studio: {
@@ -33,12 +33,6 @@ window.SITE_CONFIG = {
       { icon: "page",      title: "Landing pages",              text: "One focused page for a product, event or offer, with a clear way to contact you." },
       { icon: "portfolio", title: "Online portfolios",          text: "Show your work or projects in one tidy, shareable place." },
       { icon: "coin",      title: "Crypto payments (optional)", text: "Add cryptocurrency payment options to a site if your business wants them." }
-    ],
-    // Portfolio projects. Preview shown: "image" (e.g. "assets/portfolio/viymtech.jpg") if set, else a live preview of "link", else a plain placeholder. Add more as you finish them.
-    portfolio: [
-      { title: "Msingi Traders Den", type: "Community website",           link: "" },
-      { title: "Viymtech Solutions", type: "Computer shop website (Under Development)",       link: "" },
-      { title: "Puaan Eco Tours",    type: "Tourism website",             link: "" }
     ],
     // Price ranges (e.g. "KES 6,000 - 8,000"). "" shows "On request".
     pricing: [

@@ -46,17 +46,6 @@
   cards("#services-grid", S.services);
   cards("#studio-services", C.studio.services);
 
-  const fit = () => $$("[data-shot]").forEach((box) => {
-    const f = $("iframe", box); if (!f || box.dataset.ready) return; box.dataset.ready = 1;
-    const set = () => (f.style.transform = `scale(${box.clientWidth / 1280})`);
-    set(); if (window.ResizeObserver) new ResizeObserver(set).observe(box);
-  });
-  const pg = $("#portfolio-grid");
-  if (pg) C.studio.portfolio.forEach((p, i) => {
-    const open = p.link ? `<a class="work" href="${esc(p.link)}" target="_blank" rel="noopener noreferrer">` : `<div class="work">`;
-    pg.append(el(`${open}${p.image ? `<div class="shot"><img src="${esc(p.image)}" alt="${esc(p.title)} preview" loading="lazy"></div>` : p.link ? `<div class="shot" data-shot><iframe src="${esc(p.link)}" title="Preview of ${esc(p.title)}" loading="lazy" tabindex="-1" sandbox="allow-scripts allow-same-origin"></iframe></div>` : `<div class="mock mock-${i % 3}" aria-hidden="true"><i></i><i></i><i></i></div>`}<h3>${esc(p.title)}</h3><p>${esc(p.type)}${p.link ? ' · <span class="visit">View site &rarr;</span>' : ""}</p>${p.link ? "</a>" : "</div>"}`));
-  });
-  fit();
   const pr = $("#pricing-grid");
   if (pr) C.studio.pricing.forEach((t) => pr.append(el(`<article class="plan"><h3>${esc(t.name)}</h3><p class="from">${t.price ? "Price range" : "Starting price"}</p><p class="price">${t.price ? esc(t.price) : "On request"}</p><p>${esc(t.note)}</p><ul>${t.features.map((f) => `<li>${esc(f)}</li>`).join("")}</ul></article>`)));
 })();
