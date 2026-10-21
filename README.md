@@ -38,5 +38,5 @@ git push -u origin main
 Contact details, prices and the first portfolio project are already set in `js/config.js`.
 - [ ] Confirm the final list of SpinTech services (edit or delete cards in `config.js`)
 - [ ] Add exact opening and closing times if wanted (`hours`)
-- [ ] Add more Msingi portfolio projects as they are completed
+- [ ] If the Msingi WhatsApp number ever changes, regenerate `assets/whatsapp-qr.svg` (any QR generator, link: https://wa.me/NUMBER)
 - [ ] Test both WhatsApp buttons, the phone link, email link and map on a phone
