@@ -18,10 +18,10 @@ window.SITE_CONFIG = {
       { icon: "print",    title: "Printing & Photocopying",          text: "Clear black-and-white and colour prints and copies for school, office and personal use." },
       { icon: "scan",     title: "Scanning & Document Services",     text: "Turn paper into clean digital files you can save, email or upload." },
       { icon: "type",     title: "Typing & Document Preparation",    text: "Letters, reports and forms typed and formatted neatly, ready to use." },
-      { icon: "cv",       title: "CV & Resume Assistance",           text: "Help presenting your experience clearly in a professional CV." },
+      { icon: "cv",       title: "CV & Resume Assistance",           text: "Help presenting your experience clearly in a professional Resume." },
       { icon: "apply",    title: "Online Applications",              text: "Support filling in and submitting applications online." },
-      { icon: "gov",      title: "Government e-Services Assistance", text: "Guidance with online government services and the documents they ask for." },
-      { icon: "computer", title: "Computer & Internet Services",     text: "Access to computers and the internet for everyday digital tasks." }
+      { icon: "gov",      title: "Government e-Services Assistance", text: "Guidance with online government services( SHA , E- Citizen , i-Tax and Many others." },
+      { icon: "computer", title: "Other Services",     text: "Oher services like Car Transfers, Browsing and Passport Photo Available." }
     ]
   },
   studio: {
@@ -36,14 +36,14 @@ window.SITE_CONFIG = {
     ],
     // Portfolio projects. Preview shown: "image" (e.g. "assets/portfolio/viymtech.jpg") if set, else a live preview of "link", else a plain placeholder. Add more as you finish them.
     portfolio: [
-      { title: "Msingi Traders Den", type: "Community website",           link: "https://msingi-traders-den.vercel.app/" },
-      { title: "Viymtech Solutions", type: "Computer shop website",       link: "" },
-      { title: "Puaan Eco Tours",    type: "Tourism website",             link: "https://puaanecotours.vercel.app/" }
+      { title: "Msingi Traders Den", type: "Community website",           link: "" },
+      { title: "Viymtech Solutions", type: "Computer shop website (Under Development)",       link: "" },
+      { title: "Puaan Eco Tours",    type: "Tourism website",             link: "" }
     ],
     // Price ranges (e.g. "KES 6,000 - 8,000"). "" shows "On request".
     pricing: [
       { name: "Landing page",     price: "KES 6,000 - 8,000", note: "A single focused page.",                  features: ["One page, mobile friendly", "Contact / WhatsApp button", "Basic search-engine setup"] },
-      { name: "Business website", price: "KES 12,000 - 20,000", note: "For businesses that need several pages.", features: ["Multiple pages", "Services and contact sections", "Hosting setup help"] },
+      { name: "Business website", price: "KES 12,000 - 25,000", note: "For businesses that need several pages.", features: ["Multiple pages", "Services and contact sections", "Hosting setup help"] },
       { name: "Portfolio",        price: "KES 5,000 - 10,000", note: "Show your work online.",                  features: ["Project gallery", "About and contact pages", "Easy to update"] }
     ]
   }
