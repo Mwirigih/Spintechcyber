@@ -9,11 +9,10 @@ p{color:var(--muted)}
 .brand{display:flex;align-items:center;gap:.75rem;text-decoration:none}
 .brand img{width:46px;height:46px}
 .brand-name{font-size:1.25rem;font-weight:600;color:var(--text)}
-#site-nav{display:flex;align-items:center;gap:1.75rem;background:var(--bg)}
+@media (min-width:821px){#site-nav{display:flex;align-items:center;gap:1.75rem}}
 #site-nav a{text-decoration:none;color:var(--muted);transition:color .2s}
 #site-nav a:hover{color:var(--yellow)}
 #site-nav a.studio{color:var(--gold);border:1px solid var(--line);padding:.35rem .9rem;border-radius:999px;text-align:center}
-@media (min-width:821px){#site-nav{background:none}}
 .btn-primary{background:var(--yellow);color:#0B0B0B}.btn-primary:hover{background:#fff}
 .btn-ghost{border-color:var(--gold);color:var(--text)}.btn-ghost:hover{background:rgba(212,175,55,.12);border-color:var(--yellow)}
 .hero{position:relative;overflow:hidden;padding:clamp(3.5rem,9vw,7rem) 0;background:radial-gradient(circle at 80% 40%,rgba(240,237,89,.09),transparent 55%),var(--bg)}
