@@ -37,8 +37,8 @@ window.SITE_CONFIG = {
     // Price ranges (e.g. "KES 6,000 - 8,000"). "" shows "On request".
     pricing: [
       { name: "Landing page",     price: "KES 6,000 - 8,000", note: "A single focused page.",                  features: ["One page, mobile friendly", "Contact / WhatsApp button", "Basic search-engine setup"] },
-      { name: "Business website", price: "KES 12,000 - 25,000", note: "For businesses that need several pages.", features: ["Multiple pages", "Services and contact sections", "Hosting setup help"] },
-      { name: "Portfolio",        price: "KES 5,000 - 10,000", note: "Show your work online.",                  features: ["Project gallery", "About and contact pages", "Easy to update"] }
+      { name: "Business website", price: "KES 15,000 - 25,000", note: "For businesses that need several pages.", features: ["Multiple pages", "Services and contact sections", "Hosting setup help"] },
+      { name: "Portfolio",        price: "KES 8,000 - 10,000", note: "Show your work online.",                  features: ["Project gallery", "About and contact pages", "Easy to update"] }
     ]
   }
 };
