@@ -32,7 +32,7 @@ window.SITE_CONFIG = {
       { icon: "web",       title: "Business websites",          text: "Multi-page sites that present your business clearly on phones and computers." },
       { icon: "page",      title: "Landing pages",              text: "One focused page for a product, event or offer, with a clear way to contact you." },
       { icon: "portfolio", title: "Online portfolios",          text: "Show your work or projects in one tidy, shareable place." },
-      { icon: "coin",      title: "Crypto payments (optional)", text: "Add cryptocurrency payment options to a site if your business wants them." }
+      { icon: "coin",      title: "Crypto payments (optional)", text: "Add cryptocurrency payment options to a site if your business wants them ($USDC and $USDT Payments)." }
     ],
     // Price ranges (e.g. "KES 6,000 - 8,000"). "" shows "On request".
     pricing: [
