@@ -41,7 +41,12 @@
           <a class="btn btn-ghost" data-wa="studio" href="#contact">Chat on WhatsApp</a>
         </div>
       </div>
-      <figure class="qr"><img src="assets/whatsapp-qr.svg" alt="QR code: scan to chat with Msingi Web Studio on WhatsApp" width="320" height="320"><figcaption>Scan to chat on WhatsApp</figcaption></figure>
+      <figure class="hero-video">
+        <video id="intro-video" autoplay muted loop playsinline preload="metadata" poster="assets/studio-intro-poster.webp" width="720" height="900" aria-label="Msingi Web Studio intro video">
+          <source src="assets/studio-intro.mp4" type="video/mp4">
+        </video>
+        <button class="sound-toggle" id="sound-toggle" type="button" aria-pressed="false">Sound off</button>
+      </figure>
     </div>
   </section>
 
@@ -66,6 +71,7 @@
       <h2>Let&rsquo;s plan your website</h2>
       <p>Tell us about your business and what you need. We will reply on WhatsApp.</p>
       <a class="btn btn-wa" data-wa="studio" href="#contact">Chat on WhatsApp</a>
+      <figure class="qr"><img src="assets/whatsapp-qr.svg" alt="QR code: scan to chat with Msingi Web Studio on WhatsApp" width="320" height="320" loading="lazy"><figcaption>Scan to chat on WhatsApp</figcaption></figure>
     </div>
   </section>
 </main>
@@ -79,5 +85,18 @@
 </footer>
 <script src="js/config.js"></script>
 <script src="js/main.js"></script>
+<script>
+(function(){
+  var v=document.getElementById('intro-video'),b=document.getElementById('sound-toggle');
+  if(!v||!b)return;
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){v.pause();v.removeAttribute('autoplay');v.setAttribute('controls','');}
+  b.addEventListener('click',function(){
+    v.muted=!v.muted;
+    if(!v.muted&&v.paused){v.play();}
+    b.textContent=v.muted?'Sound off':'Sound on';
+    b.setAttribute('aria-pressed',String(!v.muted));
+  });
+})();
+</script>
 </body>
 </html>
