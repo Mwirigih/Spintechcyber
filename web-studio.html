@@ -89,10 +89,11 @@
 (function(){
   var v=document.getElementById('intro-video'),b=document.getElementById('sound-toggle');
   if(!v||!b)return;
-  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){v.pause();v.removeAttribute('autoplay');v.setAttribute('controls','');}
+  var p=v.play&&v.play();
+  if(p&&p.catch){p.catch(function(){v.setAttribute('controls','');});}
   b.addEventListener('click',function(){
     v.muted=!v.muted;
-    if(!v.muted&&v.paused){v.play();}
+    if(v.paused){v.play();}
     b.textContent=v.muted?'Sound off':'Sound on';
     b.setAttribute('aria-pressed',String(!v.muted));
   });
