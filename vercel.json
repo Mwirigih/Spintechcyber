@@ -4,7 +4,7 @@
   "redirects": [
     {
       "source": "/web-studio",
-      "destination": "https://msingi-web-studio.vercel.app",
+      "destination": "https://msingiweb.co.ke",
       "permanent": false
     }
   ]
