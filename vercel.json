@@ -1,7 +1,11 @@
 { "cleanUrls": true, "trailingSlash": false }
 {
+  {
   "redirects": [
-    { "source": "/web-studio", "destination": "https://msingiweb.co.ke", "permanent": true },
-    { "source": "/web-studio.html", "destination": "https://msingiweb.co.ke", "permanent": true }
+    {
+      "source": "/web-studio",
+      "destination": "https://msingi-web-studio.vercel.app",
+      "permanent": false
+    }
   ]
 }
